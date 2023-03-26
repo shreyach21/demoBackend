@@ -22,6 +22,6 @@ app.post("/getformdata", (req, res) => {
   return res.status(200).json({
     name,
     email,
-    message:"Congrats you are Logged In"
+    message:"Congrats you are Logged In!"
   });
 });
